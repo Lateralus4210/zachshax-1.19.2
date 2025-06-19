@@ -19,7 +19,7 @@
 			"quest.remember.ZachsHax"
 		],
 		"client": [
-			"quest.remember.ZachsHaxClient"
+			"quest.remember.ClientEntrypoint"
 		]
 	},
 	"mixins": [

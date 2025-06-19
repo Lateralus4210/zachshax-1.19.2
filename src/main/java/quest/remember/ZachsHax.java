@@ -18,7 +18,7 @@ public class ZachsHax implements ModInitializer {
 	// That way, it's clear which mod wrote info, warnings, and errors.
 	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
-	public static final Item METALLICA_STAR = new Item(new FabricItemSettings().group(ItemGroup.MISC));
+	public static final Item METALLICA_STAR = new MetallicaStarItem(new FabricItemSettings().group(ItemGroup.MISC));
 	public static final Item CHAOS_CRYSTAL = new Item(new FabricItemSettings().group(ItemGroup.MISC));
 	public static final Item CHAOS_CRYSTAL_PAINTING = new Item(new FabricItemSettings().group(ItemGroup.MISC));
 	public static final Item ZORGS_ORB = new Item(new FabricItemSettings().group(ItemGroup.MISC));
@@ -30,7 +30,7 @@ public class ZachsHax implements ModInitializer {
 	public static final Item BLUE_PARTY_HAT = new Item(new FabricItemSettings().group(ItemGroup.MISC));
 	public static final Item OLD_SCROLL = new Item(new FabricItemSettings().group(ItemGroup.MISC));
 
-	public static final Item KILL_EM_ALL = new Item(new FabricItemSettings().group(ItemGroup.MISC));
+	public static final Item KILL_EM_ALL = new KillEmAllItem(new FabricItemSettings().group(ItemGroup.MISC));
 	public static final Item RIDE_THE_LIGHTNING = new Item(new FabricItemSettings().group(ItemGroup.MISC));
 	public static final Item MASTER_OF_PUPPETS = new Item(new FabricItemSettings().group(ItemGroup.MISC));
 	public static final Item AND_JUSTICE_FOR_ALL = new Item(new FabricItemSettings().group(ItemGroup.MISC));
