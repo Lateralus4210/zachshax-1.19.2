@@ -6,6 +6,6 @@ public class ClientEntrypoint implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
         ZachsHax.LOGGER.info("ZachsHax: ClientEntrypoint initialized");
-        ClientInputHandler.init();
+        // ClientInputHandler.init();
     }
 }
